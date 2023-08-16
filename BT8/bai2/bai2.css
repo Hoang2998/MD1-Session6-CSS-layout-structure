@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    border: 1px solid black;
+    padding: 20px;
+    width: 500px;
+}
+.header{
+    padding: 5px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    display: inline-block;
+}
+.section{
+    padding: 5px;
+    background-color: rgb(240, 245, 245);
+    margin-top: 5px;
+}
+input{
+    width: 70%;
+    border: none;
+}
+.article{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(171, 200, 200);
+}
+.footer{
+    text-align: center;
+    background-color: rgb(137, 145, 145);
+    padding: 5px;
+}
+button:hover{
+    background-color: blue;
+}
